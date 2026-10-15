@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#12051f">
+<title>For Sadia Islam ❤️</title>
+<style>
+  :root { --pink:#ff6db5; --rose:#ff3f8e; --gold:#ffd98a; --night:#12051f; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; min-height:100%; }
+  body {
+    overflow-x:hidden; color:#fff; font-family:Georgia,'Times New Roman',serif;
+    background:radial-gradient(ellipse at 50% 25%,#4c1455 0%,#210b36 42%,#090512 100%);
+    min-height:100vh;
+  }
+  .stars,.hearts { position:fixed; inset:0; overflow:hidden; pointer-events:none; z-index:0; }
+  .star { position:absolute; width:2px;height:2px;background:#fff;border-radius:50%;opacity:.6;animation:twinkle 2.5s infinite ease-in-out; }
+  @keyframes twinkle { 0%,100%{opacity:.2;transform:scale(.7)} 50%{opacity:1;transform:scale(1.5)} }
+  .wrap { position:relative;z-index:1;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:28px 16px; }
+  .panel { width:min(720px,100%);text-align:center;padding:clamp(24px,5vw,52px) 20px;border:1px solid rgba(255,210,235,.28);
+    border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.10),rgba(255,255,255,.035));
+    box-shadow:0 25px 80px #0008,inset 0 1px 0 #fff3;backdrop-filter:blur(10px); }
+  .eyebrow { color:#ffd8ed;letter-spacing:.22em;text-transform:uppercase;font:600 11px/1.6 Arial,sans-serif; }
+  h1 { font-size:clamp(38px,9vw,76px);line-height:1.02;margin:15px 0;color:#fff;
+    text-shadow:0 0 18px #ff6db599,0 5px 0 #8d2868; }
+  .name { display:block;background:linear-gradient(90deg,#fff0bd,#ff8ec9,#fff);background-size:200% auto;
+    -webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 4s linear infinite; }
+  @keyframes shine { to{background-position:200% center} }
+  .subtitle { color:#f8dcef;font:15px/1.8 Arial,sans-serif;max-width:490px;margin:0 auto; }
+  button { border:0;cursor:pointer;color:#36102d;font-weight:bold;font-size:15px;padding:15px 24px;border-radius:999px;
+    background:linear-gradient(135deg,#fff0bd,#ff83bd 58%,#ffcae5);box-shadow:0 8px 28px #ff3f8e55, inset 0 1px #fff;
+    transition:transform .2s,box-shadow .2s; }
+  button:hover { transform:translateY(-3px) scale(1.02);box-shadow:0 12px 35px #ff3f8e88; }
+  .open-btn { margin-top:26px; }
+  .love-heart { width:210px;height:150px;margin:0 auto 12px;position:relative;display:flex;align-items:center;justify-content:center;perspective:700px; }
+  .heart-shape { position:absolute;font-family:Arial,sans-serif;font-size:142px;line-height:1;color:#ff3f8e;
+    text-shadow:0 0 12px #ff5ba8,0 0 32px #ff3f8eaa,0 12px 0 #9c174f;
+    transform:rotate(-4deg);animation:heartBeat 1.25s ease-in-out infinite; }
+  .heart-name { position:relative;z-index:2;margin-top:9px;padding:7px 12px;border:1px solid #fff8;border-radius:999px;
+    color:#fff;font:700 14px Arial,sans-serif;letter-spacing:.04em;background:#4a123dbd;
+    box-shadow:0 0 18px #ff6db599;transform:translateY(4px); }
+  @keyframes heartBeat { 0%,100%{transform:rotate(-4deg) scale(1)} 15%{transform:rotate(-4deg) scale(1.13)} 30%{transform:rotate(-4deg) scale(1)} 45%{transform:rotate(-4deg) scale(1.09)} 60%{transform:rotate(-4deg) scale(1)} }
+  .hidden { display:none !important; }
+  .birthday-layout { display:grid;grid-template-columns:minmax(260px,1fr) minmax(220px,1fr);gap:22px;align-items:center;margin:22px auto 12px;max-width:650px; }
+  .cake-scene { margin:18px auto;height:260px;display:flex;align-items:flex-end;justify-content:center;perspective:900px; }
+  .cake { position:relative;width:250px;height:165px;transform-style:preserve-3d;animation:cakeFloat 3s ease-in-out infinite;filter:drop-shadow(0 22px 22px #0008); }
+  .cake-scene::before { content:"";position:absolute;width:310px;height:76px;border:2px solid #ff9dce88;border-radius:50%;transform:rotateX(68deg) rotateZ(-12deg);box-shadow:0 0 18px #ff5ca866,inset 0 0 15px #ff5ca833;animation:orbit 5s linear infinite; }
+  .cake-scene { position:relative; }
+  @keyframes orbit { to{transform:rotateX(68deg) rotateZ(348deg)} }
+  .cake-base { transform:translateZ(8px); }
+  .cake-top { transform:translateZ(10px); }
+  .cake-scene::after { content:"✨";position:absolute;top:4px;left:calc(50% + 85px);font-size:23px;filter:drop-shadow(0 0 8px #ffd98a);animation:sparkle 1.4s ease-in-out infinite alternate; }
+  @keyframes sparkle { from{transform:scale(.7) rotate(-15deg);opacity:.55}to{transform:scale(1.25) rotate(18deg);opacity:1} }
+  @keyframes cakeFloat { 0%,100%{transform:rotateY(-9deg) translateY(0)}50%{transform:rotateY(9deg) translateY(-8px)} }
+  .cake-base { position:absolute;bottom:0;width:250px;height:105px;border-radius:10px 10px 18px 18px;
+    background:linear-gradient(90deg,#9c235c,#ff7eae 45%,#c53c7a);box-shadow:inset -14px 0 18px #7e174d; }
+  .cake-top { position:absolute;top:25px;width:250px;height:42px;border-radius:50%;background:linear-gradient(135deg,#fff1f6,#ffb4d3 65%,#f56da9);border-bottom:4px solid #f56da9; }
+  .icing { position:absolute;top:48px;left:0;width:250px;height:34px;background:#ffe4ef;border-radius:0 0 12px 12px;clip-path:polygon(0 0,100% 0,100% 65%,90% 100%,80% 62%,68% 100%,57% 62%,45% 100%,33% 62%,22% 100%,10% 62%,0 100%); }
+  .candle { position:absolute;z-index:2;left:calc(50% - 5px);top:-38px;width:12px;height:54px;border-radius:4px;background:repeating-linear-gradient(135deg,#fff 0 5px,#ff7db5 5px 10px); }
+  .flame { position:absolute;left:calc(50% - 8px);top:-63px;width:18px;height:28px;border-radius:50% 50% 45% 45%;background:radial-gradient(ellipse at 50% 70%,#fff8a8 0 18%,#ffb12f 40%,#ff4d72 75%);filter:drop-shadow(0 0 10px #ffbb55);animation:flicker .6s infinite alternate; }
+  @keyframes flicker { from{transform:rotate(-7deg) scale(.9)}to{transform:rotate(7deg) scale(1.08)} }
+  .message { font:16px/1.95 Arial,sans-serif;color:#ffebf6;max-width:540px;margin:16px auto 24px; }
+  .wish-card { padding:22px 20px;border:1px solid #ffc5e866;border-radius:22px;background:linear-gradient(145deg,#5b174fbb,#241039cc);box-shadow:0 16px 35px #0005,inset 0 1px #fff2;text-align:left; }
+  .wish-card h2 { margin:0 0 12px;text-align:center;color:#ffd98a;font-size:clamp(22px,3vw,30px);text-shadow:0 0 15px #ff78bd88; }
+  .cake-caption { font:12px Arial,sans-serif;color:#ffd9ed;text-align:center;margin-top:8px;letter-spacing:.08em; }
+  @media(max-width:600px){.birthday-layout{grid-template-columns:1fr;gap:6px}.cake-scene{height:235px}.cake{transform:scale(.9);transform-origin:bottom center}.wish-card{text-align:center}.message{font-size:15px}}
+  .signature { font-size:clamp(22px,5vw,32px);color:var(--gold);font-style:italic;margin:16px 0 8px;text-shadow:0 0 18px #ffd98a55; }
+  .tiny { font:12px/1.7 Arial,sans-serif;color:#e8c8df;margin-top:22px; }
+  .float-heart { position:absolute;bottom:-40px;animation:rise linear forwards;opacity:.9;filter:drop-shadow(0 0 8px #ff4f9c); }
+  @keyframes rise { to{transform:translateY(-115vh) rotate(35deg);opacity:0} }
+  .confetti { position:fixed;top:-15px;width:8px;height:13px;z-index:5;pointer-events:none;animation:fall 4s linear forwards; }
+  @keyframes fall { to{transform:translate3d(var(--drift),110vh,0) rotate(720deg);opacity:.2} }
+  .footer { font:11px Arial,sans-serif;color:#cdaec7;margin-top:24px; }
+  @media (prefers-reduced-motion:reduce) { *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;scroll-behavior:auto !important} }
+</style>
+</head>
+<body>
+<div class="stars" id="stars"></div>
+<div class="hearts" id="hearts"></div>
+<main class="wrap">
+  <section class="panel" aria-live="polite">
+    <div class="eyebrow">A little universe made just for you</div>
+    <div id="intro">
+      <div class="love-heart" aria-label="A glowing animated heart with Sadia Islam's name">
+        <div class="heart-shape">♥</div>
+        <div class="heart-name">Sadia Islam</div>
+      </div>
+      <h1>শুভ জন্মদিন, প্রিয় <span class="name">Sadia Islam</span></h1>
+      <p class="subtitle">আপনার জন্য একটি ছোট্ট জন্মদিনের সারপ্রাইজ অপেক্ষা করছে…</p>
+      <button class="open-btn" id="openBtn">আপনার সারপ্রাইজ খুলুন ❤️</button>
+      <div class="tiny">Made with love, just for you ✨</div>
+    </div>
+    <div id="surprise" class="hidden">
+      <div class="eyebrow">Today, the stars shine for you</div>
+      <h1>Happy Birthday <span class="name">Sadia Islam</span> 🎂</h1>
+      <div class="birthday-layout">
+        <div>
+          <div class="cake-scene" aria-label="Large animated 3D birthday cake with candles">
+            <div class="cake">
+              <div class="cake-base"></div><div class="cake-top"></div><div class="icing"></div>
+              <div class="candle" style="left:calc(50% - 58px);top:-34px"></div><div class="flame" style="left:calc(50% - 61px);top:-61px"></div>
+              <div class="candle" style="left:calc(50% - 6px);top:-43px"></div><div class="flame" style="left:calc(50% - 9px);top:-70px"></div>
+              <div class="candle" style="left:calc(50% + 46px);top:-34px"></div><div class="flame" style="left:calc(50% + 43px);top:-61px"></div>
+            </div>
+          </div>
+          <div class="cake-caption">MAKE A WISH, SADIA ✨</div>
+        </div>
+        <div class="wish-card">
+          <h2>শুভ জন্মদিন, Sadia! 💖</h2>
+          <p class="message">
+            আপনার জীবনের প্রতিটি দিন ভরে উঠুক হাসি, ভালোবাসা আর সুন্দর মুহূর্তে। ✨
+            আপনার সব স্বপ্ন পূরণ হোক, মন ভরে থাকুক আনন্দে, আর আপনার মিষ্টি হাসিটা সবসময় এমনই থাকুক।
+            আপনি সত্যিই স্পেশাল—আপনার নতুন বছরটা হোক অসাধারণ। 🎂💗
+          </p>
+        </div>
+      </div>
+      <div class="signature">আপনার জন্য রইল অনেক ভালোবাসা ❤️</div>
+      <div class="subtitle">অনেক অনেক শুভকামনায়,</div>
+      <div class="signature">Ashraful Rafi</div>
+      <button id="moreHearts">Send More Love 💖</button>
+      <div class="footer">Made especially for Sadia Islam ✨</div>
+    </div>
+  </section>
+</main>
+<script>
+  const stars = document.getElementById('stars');
+  for (let i=0;i<95;i++) {
+    const s=document.createElement('span'); s.className='star';
+    s.style.left=Math.random()*100+'%'; s.style.top=Math.random()*100+'%';
+    s.style.animationDelay=(Math.random()*3)+'s'; s.style.animationDuration=(1.5+Math.random()*3)+'s';
+    stars.appendChild(s);
+  }
+  function hearts(count=22) {
+    const layer=document.getElementById('hearts');
+    const symbols=['♥','♡','💗','✨'];
+    for(let i=0;i<count;i++){
+      const h=document.createElement('span');h.className='float-heart';
+      h.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+      h.style.left=Math.random()*100+'%';h.style.fontSize=(15+Math.random()*25)+'px';
+      h.style.animationDuration=(4+Math.random()*5)+'s';h.style.animationDelay=(Math.random()*.7)+'s';
+      layer.appendChild(h);setTimeout(()=>h.remove(),10000);
+    }
+  }
+  function confetti(count=100) {
+    const colors=['#ff6db5','#ffd98a','#ffffff','#caa4ff','#ff8c8c'];
+    for(let i=0;i<count;i++){
+      const c=document.createElement('i');c.className='confetti';
+      c.style.left=Math.random()*100+'vw';c.style.background=colors[Math.floor(Math.random()*colors.length)];
+      c.style.setProperty('--drift',(Math.random()*220-110)+'px');
+      c.style.animationDelay=(Math.random()*1.2)+'s';c.style.animationDuration=(3+Math.random()*2)+'s';
+      document.body.appendChild(c);setTimeout(()=>c.remove(),6000);
+    }
+  }
+  document.getElementById('openBtn').addEventListener('click',()=>{
+    document.getElementById('intro').classList.add('hidden');
+    document.getElementById('surprise').classList.remove('hidden');
+    hearts(55);confetti(130);
+  });
+  document.getElementById('moreHearts').addEventListener('click',()=>{hearts(45);confetti(55);});
+  setInterval(()=>hearts(4),1800);
+</script>
+</body>
+</html>
